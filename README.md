@@ -9,7 +9,7 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 - A slighty modified font to fit more text on screen.
 - Enabled Debug Menu. (Mostly broken)
 - Changed the supported video container to .mp4 for Steam Deck / Linux compatability.
-## Switch Patch Notes
+## Switch Patch
 - The Switch patch is a partail conversion of the PC patch and will have non-working options exposed.
 - The "Game Over" button will call a debug feature to trip all the flags in the game.
 - You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
