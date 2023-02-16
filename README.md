@@ -17,7 +17,7 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 ## Where to buy the game
 ###
 Windows: https://dlsoft.dmm.com/detail/images_0013/ 
-- You need to use a vpn set to Japan to view and purchse the game due to the page being blocked outside of Japan.
+- You need to use a vpn set to Japan to view and purchase the game due to the page being blocked outside of Japan.
 ###
 Switch: https://store-jp.nintendo.com/list/software/70010000035750.html
 - You will need a Japanese eshop account to purchase the game.
