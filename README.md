@@ -23,7 +23,7 @@ Switch: https://store-jp.nintendo.com/list/software/70010000035750.html
 - You will need a Japanese eshop account to purchase the game.
 ## Faq
 ### Do you plan to patch the Vita and PS4 versions?
-If we get translators on borad to help with this project yes. Those versions of the game have various diffrences that we would need to make adjusments for to diffrences in textures and the resolution on Vita.
+If we get translators on borad to help with this project yes. Those versions of the game have various diffrences that we would need to make adjusments for due to diffrences in textures and the resolution on Vita.
 ### Why is this being released as is?
 Because this project will go nowhere if it isn't. We had a translator but they have gone silent and the motivation for this project went with them. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
 ### Do I need the game?
