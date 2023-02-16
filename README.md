@@ -27,6 +27,6 @@ If we get translators on borad to help with this project yes. Those versions of 
 ### Why is this being released as is?
 Because this project will go nowhere if it isn't. We had a translator but they have gone silent and the motivation for this project went with them. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
 ### Do I need the game?
-Yes, the files in realeases are what's strictly needed for the patch.
+Yes, the files in releases are what's strictly needed for the patch.
 ## Disclamers
 This project is not assoicated with or endorced by Kadokawa or MAGES./5pb.
