@@ -1,0 +1,1 @@
+psbdecompile info-psb -k 38757621acf82 motion_info.psb.m
