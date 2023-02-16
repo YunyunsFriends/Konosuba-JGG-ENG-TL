@@ -12,8 +12,8 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 ## Switch Patch
 - The Switch patch is a partail conversion of the PC patch and will have non-working options exposed.
 - The "Game Over" button will call a debug feature to trip all the flags in the game.
-- You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
 - The Debug Menu is not enabled.
+- You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
 ## Where to buy the game
 ###
 Windows: https://dlsoft.dmm.com/detail/images_0013/ 
