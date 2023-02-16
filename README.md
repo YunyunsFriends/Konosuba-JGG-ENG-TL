@@ -8,7 +8,7 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 - Translated Menus and System text.
 - A slighty modified font to fit more text on screen.
 - Enabled Debug Menu. (Mostly broken)
-- Changed the supported video container to .mp4 for Steam Deck / Linux compatability.
+- Changed the supported video container to .mp4 for Steam Deck / Linux compatability, and so one video file can be used for PS4, Switch, and PC.
 ## Switch Patch
 - The Switch patch is a partail conversion of the PC patch and will have non-working options exposed.
 - The "Game Over" button will call a debug feature to trip all the flags in the game. (Spoilers!)
