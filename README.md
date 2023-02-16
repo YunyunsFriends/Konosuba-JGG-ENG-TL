@@ -11,7 +11,7 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 - Changed the supported video container to .mp4 for Steam Deck / Linux compatability, and so one video file can be used for PS4, Switch, and PC.
 ## Switch Patch
 - The Switch patch is a partial conversion of the PC patch and will have non-working options exposed.
-- The "Game Over" button will call a debug feature to trip all the flags in the game. (Spoilers!)
+- The "Game Over" button will call a debug function to trip all the flags in the game. (Spoilers!)
 - The Debug Menu is not enabled.
 - You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
 ## Where to buy the game
