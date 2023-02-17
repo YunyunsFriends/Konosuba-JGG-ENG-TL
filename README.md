@@ -1,5 +1,5 @@
 ![Logo](https://user-images.githubusercontent.com/110912092/219731603-8aec72c2-743f-4310-9d8a-1673e449f9b0.png)
-## Konosuba Judgment on this Greedy Game English Menu Patch for PC and Switch POC
+## Konosuba Judgment on this Greedy Game English Menu Patch for PC and Switch Proof of Concept
 This patch adds a partial English menu and 5 machine translated scripts on PC and 3 on Switch.
 ###
 We are looking for translators to translate the rest of the games' scripts, and will not be able to finish the patch without them because we do not want to machine translate the entire game.
