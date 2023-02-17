@@ -1,0 +1,2 @@
+ren *.psb *.
+ren *.pure *.
