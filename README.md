@@ -33,6 +33,8 @@ Yes, the files in releases are what's strictly needed for the patch.
 ### Cheese
 - Texture Editing / Redrawing
 - Inital POC release on Reddit
+### Goku
+- Menu TL
 ### Shaggy
 - Texture Adjustments / Remapping & Implementation
 - Technical Changes
