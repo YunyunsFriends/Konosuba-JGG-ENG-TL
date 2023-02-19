@@ -41,5 +41,14 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 - Texture Adjustments / Remapping & Implementation
 - Technical Changes
 - Switch Conversion
+## Tools Used
+### **[FreeMote Toolkit](https://github.com/UlyssesWu/FreeMote)**
+- Unpack and Repack game PSBs and SCNs
+### **[ScnEditorGUI](https://github.com/hiroshiyuri/scn-editor-gui)**
+- Edit game scripts.
+### **[PlaMemo-Scenario-Parser](https://github.com/Rimi-kun/PlaMemo-Scenario-Parser)**
+- Outputs a given script to a text file.
+### **[suba-yoku-dbg](https://github.com/ErisOrder/suba-yoku-dbg)**
+- Outputs debug information.
 ## Disclamers
 This project is not assoicated with or endorced by Kadokawa or MAGES./5pb.
