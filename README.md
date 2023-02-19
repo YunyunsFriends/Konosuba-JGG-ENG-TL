@@ -22,7 +22,7 @@ Windows: **[DMM DLSOFT](https://dlsoft.dmm.com/detail/images_0013/)**
 ###
 Switch: **[eShop](https://store-jp.nintendo.com/list/software/70010000035750.html)**
 - You will need a Japanese eshop account to purchase the game.
-## Faq
+## FAQ
 ### Do you plan to patch the Vita and PS4 versions?
 If we get translators on borad to help with this project yes. Those versions of the game have various diffrences that we would need to make adjusments for due to diffrences in textures and the resolution on Vita.
 ### Why is this being released as is?
@@ -30,7 +30,7 @@ Because this project will go nowhere if it isn't. We had a translator but they h
 ### Do I need the game?
 Yes, the files in releases are what's strictly needed for the patch.
 ### Can I play this on a Steam Deck?
-Yes, you will need to install and use **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTricks' run exe on prefix feature.
+Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTricks' run exe on prefix feature.
 ## Credits
 ### Cheese
 - Texture Editing / Redrawing
