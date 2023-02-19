@@ -17,10 +17,10 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 - You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
 ## Where to buy the game
 ###
-Windows: https://dlsoft.dmm.com/detail/images_0013/ 
+Windows: **[DMM DLSOFT](https://dlsoft.dmm.com/detail/images_0013/)**
 - You need to use a vpn set to Japan to view and purchase the game due to the page being blocked outside of Japan.
 ###
-Switch: https://store-jp.nintendo.com/list/software/70010000035750.html
+Switch: **[eShop](https://store-jp.nintendo.com/list/software/70010000035750.html)**
 - You will need a Japanese eshop account to purchase the game.
 ## Faq
 ### Do you plan to patch the Vita and PS4 versions?
@@ -29,6 +29,8 @@ If we get translators on borad to help with this project yes. Those versions of 
 Because this project will go nowhere if it isn't. We had a translator but they have gone silent and the motivation for this project went with them. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
 ### Do I need the game?
 Yes, the files in releases are what's strictly needed for the patch.
+### Can I play this on a Steam Deck?
+Yes, you will need to install and use **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTricks' run exe on prefix feature.
 ## Credits
 ### Cheese
 - Texture Editing / Redrawing
