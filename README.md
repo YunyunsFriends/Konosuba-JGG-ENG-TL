@@ -30,7 +30,7 @@ Because this project will go nowhere if it isn't. We had a translator but they h
 ### Do I need the game?
 Yes, the files in releases are what's strictly needed for the patch.
 ### Can I play this on a Steam Deck?
-Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTricks' run exe on prefix feature.
+Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTrick's run exe on prefix feature.
 ## Credits
 ### Cheese
 - Texture Editing / Redrawing
@@ -40,7 +40,6 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 ### Shaggy
 - Texture Adjustments / Remapping & Implementation
 - Technical Changes
-- Switch Conversion
 ## Tools Used
 ### **[FreeMote Toolkit](https://github.com/UlyssesWu/FreeMote)**
 - Unpack and Repack game PSBs and SCNs
