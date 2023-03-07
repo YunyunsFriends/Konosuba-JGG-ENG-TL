@@ -26,7 +26,7 @@ Switch: **[eShop](https://store-jp.nintendo.com/list/software/70010000035750.htm
 ### Do you plan to patch the Vita and PS4 versions?
 If we get translators on borad to help with this project yes. Those versions of the game have various diffrences that we would need to make adjusments for due to diffrences in textures and the resolution on Vita.
 ### Why is this being released as is?
-We had a translator but they have left the project. There was also a plan to release an updated proof of concept patch. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
+Because we had planned to release an updated proof of concept patch. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
 ### Do I need the game?
 Yes, the files in releases are what's strictly needed for the patch.
 ### Can I play this on a Steam Deck?
