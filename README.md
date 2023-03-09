@@ -7,9 +7,9 @@ We are looking for translators to translate the rest of the vn's scripts, and wi
 If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 ## PC Patch Features
 - Translated Menus and System text.
-- A slighty modified font to fit more text on screen.
+- A slightly modified font to fit more text on screen.
 - Enabled Debug Menu. (Mostly broken)
-- ~Changed the supported video container to .mp4 for Steam Deck / Linux compatability, and so one video file can be used for PS4, Switch, and PC.~ Temporarily removed from POC patch.
+- ~Changed the supported video container to .mp4 for Steam Deck / Linux compatibility, and so one video file can be used for PS4, Switch, and PC.~ Temporarily removed from POC patch.
 - Reduced font size.
 ## Switch Patch
 - The Switch patch is a partial conversion of the PC patch and will have non-working options exposed.
@@ -29,7 +29,7 @@ Switch: **[eShop](https://store-jp.nintendo.com/list/software/70010000035750.htm
 - You will need a Japanese eshop account to purchase the game.
 ## FAQ
 ### Do you plan to patch the Vita and PS4 versions?
-If we get translators on borad to help with this project yes. Those versions of the game have various diffrences that we would need to make adjusments for due to diffrences in textures and the resolution on Vita.
+If we get translators on board to help with this project yes. Those versions of the game have various differences that we would need to make adjustments for due to differences in textures and the resolution on Vita.
 ### Why is this being released as is?
 Because we had planned to release an updated proof of concept patch. The work done here may help another team in the future if they wish to use this, if this project does not get completed.
 ### Do I need the game?
@@ -39,7 +39,7 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 ## Credits
 ### Cheese
 - Texture Editing / Redrawing
-- Inital POC release on Reddit
+- Initial POC release on Reddit
 ### Goku
 - Menu TL
 ### Shaggy
@@ -56,5 +56,5 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 - Outputs debug information.
 ### **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)**
 - Used to port scripts from PC to Switch and Vita.
-## Disclamers
-This project is not assoicated with or endorced by Kadokawa or MAGES./5pb.
+## Disclaimers
+This project is not associated with or endorsed by Kadokawa or MAGES./5pb.
