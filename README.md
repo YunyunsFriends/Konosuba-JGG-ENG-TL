@@ -9,12 +9,17 @@ If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
 - Translated Menus and System text.
 - A slighty modified font to fit more text on screen.
 - Enabled Debug Menu. (Mostly broken)
-- Changed the supported video container to .mp4 for Steam Deck / Linux compatability, and so one video file can be used for PS4, Switch, and PC.
+- ~Changed the supported video container to .mp4 for Steam Deck / Linux compatability, and so one video file can be used for PS4, Switch, and PC.~ Temporarily removed from POC patch.
+- Reduced font size.
 ## Switch Patch
 - The Switch patch is a partial conversion of the PC patch and will have non-working options exposed.
-- The "Game Over" button will call a debug function to trip all the flags in the game. (Spoilers!)
+- The "Game Over" button will call a debug function to trip all the flags in the game. (This can lead to spoilers!)
 - The Debug Menu is not enabled.
 - You will need to have a Switch with cfw to install the patch. Extract it to the root of your sd card.
+- Reduced font size.
+## Vita Patch
+- Contains 7 machine translated scripts. No textures or menus were edited.
+- Reduced font size. _Note: Unlike PC and Switch the font on Vita has not been fixed. I.E some letters may be cut off on some edges._
 ## Where to buy the game
 ###
 Windows: **[DMM DLSOFT](https://dlsoft.dmm.com/detail/images_0013/)**
@@ -49,5 +54,7 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 - Outputs a given script to a text file.
 ### **[suba-yoku-dbg](https://github.com/ErisOrder/suba-yoku-dbg)**
 - Outputs debug information.
+### **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)**
+- Used to port scripts from PC to Switch and Vita.
 ## Disclamers
 This project is not assoicated with or endorced by Kadokawa or MAGES./5pb.
