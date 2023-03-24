@@ -1,0 +1,11 @@
+{
+  "PsbVersion": 4,
+  "PsbType": "BmpFont",
+  "Platform": "win",
+  "CryptKey": null,
+  "ExternalTextures": false,
+  "Context": {},
+  "Resources": {
+    "0": "textfont60red.psb/[0]-[0].png"
+  }
+}

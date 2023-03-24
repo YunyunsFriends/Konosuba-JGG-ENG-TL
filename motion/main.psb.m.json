@@ -1,0 +1,2476 @@
+{
+  "easing": [[{
+        "p": [0.0,-58.422538757324219,-8.2153987884521484,-8.5792026519775391,-3.7795541286468506,-1.7559728622436523,-0.93890941143035889,-0.96048760414123535,0.0],
+        "x": [0.0,0.0344182625412941,0.084343992173671722,0.14942702651023865,0.22931723296642303,0.43211847543716431,0.68994647264480591,0.838620126247406,1.0],
+        "y": [0.0,0.161379873752594,0.31005352735519409,0.44567078351974487,0.56788152456283569,0.77068275213241577,0.91565603017807007,0.96558171510696411,1.0]
+      }],[{
+        "p": [0.0,0.96048760414123535,0.93890941143035889,1.7559728622436523,3.7795541286468506,8.5792026519775391,8.2153987884521484,58.422538757324219,0.0],
+        "x": [0.0,0.161379873752594,0.31005352735519409,0.56788152456283569,0.77068275213241577,0.850572943687439,0.91565603017807007,0.96558171510696411,1.0],
+        "y": [0.0,0.0344182625412941,0.084343992173671722,0.22931723296642303,0.43211847543716431,0.55432921648025513,0.68994647264480591,0.838620126247406,1.0]
+      }],[{
+        "p": [0.0,6.0985593795776367,2.871410608291626,0.68207734823226929,-1.0065022706985474,-3.0721457004547119,-8.5141611099243164,0.0],
+        "x": [0.0,0.090458303689956665,0.18465815484523773,0.47753569483757019,0.66918104887008667,0.84658151865005493,0.92689704895019531,1.0],
+        "y": [0.0,0.023290758952498436,0.087152518332004547,0.43200600147247314,0.69947409629821777,0.91284745931625366,0.976709246635437,1.0]
+      }],[{
+        "p": [0.0,6.4442639350891113,2.8021297454833984,-0.92576122283935547,-2.1665818691253662,-2.8078474998474121,-8.3458766937255859,0.0],
+        "x": [0.0,0.086701728403568268,0.17857250571250916,0.6649736762046814,0.75756573677062988,0.84522914886474609,0.9265214204788208,1.0],
+        "y": [0.0,0.023290758952498436,0.087152518332004547,0.69947409629821777,0.81743049621582031,0.91284745931625366,0.976709246635437,1.0]
+      }],[{
+        "p": [0.0,5.2658162117004395,3.0946536064147949,1.9314644336700439,-1.0881475210189819,-2.7197215557098389,-3.5772044658660889,-8.5537357330322266,0.0],
+        "x": [0.0,0.10202854871749878,0.20250938832759857,0.39792636036872864,0.67380917072296143,0.76027047634124756,0.84360629320144653,0.9235912561416626,1.0],
+        "y": [0.0,0.023290758952498436,0.087152518332004547,0.30052593350410461,0.69947409629821777,0.81743049621582031,0.91284745931625366,0.976709246635437,1.0]
+      }]],
+  "id": "motion",
+  "label": "main",
+  "metadata": null,
+  "motioninfo": [{
+      "cond": "mplayer.chara==\"MSGWIN\""
+    },{
+      "fontSize": 52,
+      "getfunc": "function(self){return getMessageText();}",
+      "lineHeight": 60,
+      "name": "message",
+      "offsetx": 0,
+      "offsety": 18,
+      "shape": "message",
+      "type": "text"
+    },{
+      "fontSize": 52,
+      "getfunc": "function(self){return getNameText();}",
+      "name": "name",
+      "offsetx": 0,
+      "offsety": 3,
+      "shape": "nametext",
+      "textDefault": {
+        "align": 0,
+        "valign": 0
+      },
+      "textOption": {
+        "fitMode": 1
+      },
+      "type": "text"
+    },{
+      "cond": "mplayer.chara==\"DATEWIN\""
+    },{
+      "fontSize": 36,
+      "getfunc": "function(self){return n_text;}",
+      "lineHeight": 42,
+      "name": "message",
+      "shape": "datearea",
+      "type": "text"
+    },{
+      "layer": "",
+      "motion": "hide",
+      "name": "timeout",
+      "result": "",
+      "seid": "",
+      "timeout": 3000,
+      "type": "button"
+    },{
+      "cond": "mplayer.chara==\"PLACEWIN\""
+    },{
+      "fontSize": 36,
+      "getfunc": "function(self){return n_text;}",
+      "lineHeight": 42,
+      "name": "message",
+      "shape": "placearea",
+      "type": "text"
+    },{
+      "layer": "",
+      "motion": "hide",
+      "name": "timeout",
+      "result": "",
+      "seid": "",
+      "timeout": 3000,
+      "type": "button"
+    }],
+  "object": {
+    "AUTOSKIP": {
+      "metadata": null,
+      "motion": {
+        "hide": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "class",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "item"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "ccc": 1,
+                    "icon": "class",
+                    "mask": 527360,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "opa": 0,
+                    "src": "item"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "item",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "item": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "normal": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "class",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "item"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 1.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "item",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "item": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "show": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "ccc": 0,
+                    "icon": "class",
+                    "mask": 527360,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "item"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "class",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "src": "item"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "item",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "item": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        }
+      },
+      "type": 0
+    },
+    "MSGWIN": {
+      "metadata": null,
+      "motion": {
+        "hide": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "win",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "MSGWIN"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "win",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "opa": 0,
+                    "src": "MSGWIN"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "normal": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "win",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "MSGWIN"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 1,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "show": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "win",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "MSGWIN"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "win",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "src": "MSGWIN"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "textwin": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [0.0,364.0,0],
+                    "icon": "0005",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "coord": [0.0,364.0,0],
+                    "icon": "0005",
+                    "mask": 1026,
+                    "opa": 0,
+                    "src": "tex"
+                  },
+                  "time": 1,
+                  "type": 3
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 0,
+              "division": 1,
+              "enabled": 1,
+              "id": "trans",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "win": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "textwin",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "MSGWIN"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [840.0,414.0,0.0],
+                    "icon": "アイコン",
+                    "mask": 525314,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "content": {
+                    "coord": [840,414,0.0],
+                    "icon": "アイコン",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 1
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 1,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "wait",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [0.0,372.0,0.0],
+                    "mask": 98,
+                    "zx": 90.625,
+                    "zy": 15.875
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33554956,
+              "joinTarget": 1,
+              "label": "message",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "parameterize": null,
+              "shape": 2,
+              "transformOrder": [0,3,2,1],
+              "type": 1
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "namewin",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "namewin",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "message": 2,
+            "namewin": 3,
+            "wait": 1,
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 1,
+              "division": 1,
+              "enabled": 1,
+              "id": "wait",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [3,2,1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "winのコピー": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [0.0,364.0,0],
+                    "icon": "0005",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "window",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [840.0,414.0,0.0],
+                    "icon": "アイコン",
+                    "mask": 525314,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "content": {
+                    "coord": [840,414,0.0],
+                    "icon": "アイコン",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 1
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 1,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "wait",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [0.0,372.0,0.0],
+                    "mask": 98,
+                    "zx": 90.625,
+                    "zy": 15.875
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33554956,
+              "joinTarget": 1,
+              "label": "message",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "parameterize": null,
+              "shape": 2,
+              "transformOrder": [0,3,2,1],
+              "type": 1
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "namewin",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "namewin",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "message": 2,
+            "namewin": 3,
+            "wait": 1,
+            "window": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 1,
+              "division": 1,
+              "enabled": 1,
+              "id": "wait",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [3,2,1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        }
+      },
+      "type": 0
+    },
+    "NAMEWIN": {
+      "metadata": null,
+      "motion": {
+        "hide": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0.0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "opa": 0,
+                    "src": "NAMEWIN"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "name": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "namebase": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-566.0,218.0,0.0],
+                    "icon": "0006",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 1,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "name": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "nameon": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "namebase",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "namebase",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 1
+                    },
+                    "opa": 0,
+                    "src": "NAMEWIN"
+                  },
+                  "time": 1,
+                  "type": 3
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-566.0,208.0,0.0],
+                    "mask": 98,
+                    "zx": 24.5,
+                    "zy": 4.8000001907348633
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 2,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33554956,
+              "joinTarget": 1,
+              "label": "nametext",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "parameterize": null,
+              "shape": 2,
+              "transformOrder": [0,3,2,1],
+              "type": 1
+            }],
+          "layerIndexMap": {
+            "name": 0,
+            "nametext": 1
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 0,
+              "division": 1,
+              "enabled": 1,
+              "id": "trans",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "namewin": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 1.0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 1.0,
+                  "type": 2
+                },{
+                  "time": 2.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "name": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 1,
+              "division": 1,
+              "enabled": 1,
+              "id": "nameVisible",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "normal": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "time": 1,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "name": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "show": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 11,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 525312,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "opa": 0,
+                    "src": "NAMEWIN"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "icon": "nameon",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 10.0
+                    },
+                    "src": "NAMEWIN"
+                  },
+                  "time": 10.0,
+                  "type": 3
+                },{
+                  "time": 11,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "name",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "name": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 11,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        }
+      },
+      "type": 0
+    },
+    "item": {
+      "metadata": null,
+      "motion": {
+        "class": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 3,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "st01_auto",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "item"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "content": {
+                    "icon": "st02_skip1",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "item"
+                  },
+                  "time": 1,
+                  "type": 2
+                },{
+                  "content": {
+                    "icon": "st03_skip2",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "item"
+                  },
+                  "time": 2,
+                  "type": 2
+                },{
+                  "time": 3,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "class",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "class": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 1,
+              "division": 2,
+              "enabled": 1,
+              "id": "class",
+              "rangeBegin": 0,
+              "rangeEnd": 2
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 3,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "st01_auto": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [828.0,394.0,0.0],
+                    "icon": "0000",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "time": 1.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "レイヤ1",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "レイヤ1": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "st02_skip1": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [828.0,394.0,0.0],
+                    "icon": "0004",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 1,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "レイヤ1",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "レイヤ1": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "st03_skip2": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 1,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [828.0,394.0,0.0],
+                    "icon": "0004",
+                    "mask": 2,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 1,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "レイヤ1",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "レイヤ1": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 1,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        }
+      },
+      "type": 0
+    },
+    "入力待ち": {
+      "metadata": null,
+      "motion": {
+        "next1": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 300,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 30,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 180,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 1040,
+                    "opa": 0,
+                    "src": "tex"
+                  },
+                  "time": 240,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345.0,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 300,
+                  "type": 3
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "next_ani3",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "next_ani3": 0
+          },
+          "loopTime": 0,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 300,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "next2": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 300,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 30,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 180,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "icon": "0002",
+                    "mask": 1040,
+                    "opa": 0,
+                    "src": "tex"
+                  },
+                  "time": 240,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345.0,
+                    "icon": "0002",
+                    "mask": 16,
+                    "src": "tex"
+                  },
+                  "time": 300,
+                  "type": 3
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "next_ani3",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "angle": 345,
+                    "coord": [34,14,0.0],
+                    "icon": "0003",
+                    "mask": 18,
+                    "src": "tex"
+                  },
+                  "time": 0,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "coord": [34,14,0.0],
+                    "icon": "0003",
+                    "mask": 18,
+                    "src": "tex"
+                  },
+                  "time": 30,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "coord": [34,14,0.0],
+                    "icon": "0003",
+                    "mask": 18,
+                    "src": "tex"
+                  },
+                  "time": 180,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345,
+                    "coord": [34,14,0.0],
+                    "icon": "0003",
+                    "mask": 1042,
+                    "opa": 0,
+                    "src": "tex"
+                  },
+                  "time": 240,
+                  "type": 3
+                },{
+                  "content": {
+                    "angle": 345.0,
+                    "coord": [34.0,14.0,0.0],
+                    "icon": "0003",
+                    "mask": 18,
+                    "src": "tex"
+                  },
+                  "time": 300,
+                  "type": 3
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "next_ani3",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "objTriPriority": 2,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 0
+            }],
+          "layerIndexMap": {
+            "next_ani3": 1
+          },
+          "loopTime": 0,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 300,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "rotate": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 180.0,
+          "layer": [{
+              "children": [{
+                  "children": [],
+                  "coordinate": 0,
+                  "exportSelf": 1,
+                  "frameList": [{
+                      "content": {
+                        "acc": 2,
+                        "icon": "0001",
+                        "mask": 4096,
+                        "src": "tex"
+                      },
+                      "time": 0,
+                      "type": 3
+                    },{
+                      "content": {
+                        "acc": 3,
+                        "angle": 15,
+                        "icon": "0001",
+                        "mask": 4112,
+                        "src": "tex"
+                      },
+                      "time": 60.0,
+                      "type": 3
+                    },{
+                      "content": {
+                        "acc": 4,
+                        "icon": "0001",
+                        "mask": 4096,
+                        "src": "tex"
+                      },
+                      "time": 120.0,
+                      "type": 3
+                    },{
+                      "content": {
+                        "icon": "0001",
+                        "mask": 0,
+                        "src": "tex"
+                      },
+                      "time": 180.0,
+                      "type": 3
+                    }],
+                  "groundCorrection": 0,
+                  "inheritMask": 33556476,
+                  "joinTarget": 1,
+                  "label": "next_ani1",
+                  "meshCombine": 0,
+                  "meshTransform": 0,
+                  "metadata": null,
+                  "objTriPriority": 2,
+                  "parameterize": null,
+                  "stencilType": 0,
+                  "transformOrder": [0,3,2,1],
+                  "type": 0
+                }],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "mask": 0
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 180.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "alpha",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "parameterize": null,
+              "transformOrder": [0,3,2,1],
+              "type": 2
+            }],
+          "layerIndexMap": {
+            "alpha": 0,
+            "next_ani1": 1
+          },
+          "loopTime": 0,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 180.0,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "アイコン": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 2,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "icon": "未読",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 0.0,
+                  "type": 2
+                },{
+                  "content": {
+                    "icon": "既読",
+                    "mask": 524288,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 1.0,
+                  "type": 2
+                },{
+                  "time": 2.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "レイヤ1",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "レイヤ1": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [{
+              "discretization": 1,
+              "division": 1,
+              "enabled": 1,
+              "id": "readed",
+              "rangeBegin": 0,
+              "rangeEnd": 1
+            }],
+          "parameterize": 0,
+          "priority": [{
+              "content": [0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 2,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "既読": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 5,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-24.0,-14.0,0],
+                    "icon": "rotate",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 5.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "pa_wait",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-7.0,30.0,0],
+                    "icon": "next2",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 5.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "next",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "next": 1,
+            "pa_wait": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 5,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        },
+        "未読": {
+          "bounds": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "lastTime": 5,
+          "layer": [{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-24.0,-14.0,0],
+                    "icon": "rotate",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 5.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "pa_wait",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            },{
+              "children": [],
+              "coordinate": 0,
+              "exportSelf": 1,
+              "frameList": [{
+                  "content": {
+                    "coord": [-7.0,30.0,0],
+                    "icon": "next1",
+                    "mask": 524290,
+                    "motion": {
+                      "mask": 0,
+                      "timeOffset": 0
+                    },
+                    "src": "入力待ち"
+                  },
+                  "time": 0,
+                  "type": 2
+                },{
+                  "time": 5.0,
+                  "type": 0
+                }],
+              "groundCorrection": 0,
+              "inheritMask": 33556476,
+              "joinTarget": 1,
+              "label": "next",
+              "meshCombine": 0,
+              "meshTransform": 0,
+              "metadata": null,
+              "motionIndependentLayerInherit": 0,
+              "parameterize": null,
+              "stencilType": 0,
+              "transformOrder": [0,3,2,1],
+              "type": 3
+            }],
+          "layerIndexMap": {
+            "next": 1,
+            "pa_wait": 0
+          },
+          "loopTime": -1,
+          "metadata": null,
+          "parameter": [],
+          "parameterize": null,
+          "priority": [{
+              "content": [1,0],
+              "time": 0,
+              "type": 1
+            },{
+              "content": null,
+              "time": 5,
+              "type": 1
+            }],
+          "referenceModelFileList": [],
+          "referenceProjectFileList": [],
+          "tag": [],
+          "type": 0,
+          "variable": []
+        }
+      },
+      "type": 0
+    }
+  },
+  "screenSize": {
+    "height": 1080,
+    "originX": 0,
+    "originY": 0,
+    "width": 1920
+  },
+  "source": {
+    "tex": {
+      "icon": {
+        "0000": {
+          "attr": 0,
+          "height": 159,
+          "left": 1749,
+          "metadata": null,
+          "originX": 66,
+          "originY": 75,
+          "top": 1,
+          "width": 131
+        },
+        "0001": {
+          "attr": 0,
+          "height": 103,
+          "left": 1749,
+          "metadata": null,
+          "originX": 51,
+          "originY": 51,
+          "top": 162,
+          "width": 102
+        },
+        "0002": {
+          "attr": 0,
+          "height": 39,
+          "left": 1882,
+          "metadata": null,
+          "originX": 60,
+          "originY": 20,
+          "top": 163,
+          "width": 122
+        },
+        "0003": {
+          "attr": 0,
+          "height": 27,
+          "left": 1882,
+          "metadata": null,
+          "originX": 32,
+          "originY": 14,
+          "top": 204,
+          "width": 63
+        },
+        "0004": {
+          "attr": 0,
+          "height": 160,
+          "left": 1882,
+          "metadata": null,
+          "originX": 66,
+          "originY": 80,
+          "top": 1,
+          "width": 122
+        },
+        "0005": {
+          "attr": 1,
+          "height": 309,
+          "left": 1,
+          "metadata": null,
+          "originX": 874,
+          "originY": 142,
+          "top": 1,
+          "width": 1746
+		  //text box
+        },
+        "0006": {
+          "attr": 0,
+          "height": 99,
+          "left": 1,
+          "metadata": null,
+          "originX": 208,
+          "originY": 48,
+          "top": 312,
+          "width": 416
+		  //name box
+        }
+      },
+      "metadata": null,
+      "texture": {
+        "height": 512,
+        "pixel": "#resource#0",
+        "truncated_height": 412,
+        "truncated_width": 2005,
+        "type": "RGBA8",
+        "width": 2048
+      },
+      "type": 0
+    }
+  },
+  "spec": "win",
+  "stereovisionProfile": {
+    "dist_e2d": 972.0,
+    "dist_eye": 65.0,
+    "eye_angle_ltd": 1.0,
+    "f_level": 700,
+    "fov": 0.60000002384185791,
+    "len_disp": 324.0
+  },
+  "version": 3.0299999713897705
+}

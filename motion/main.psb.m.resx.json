@@ -1,0 +1,11 @@
+{
+  "PsbVersion": 3,
+  "PsbType": "Motion",
+  "Platform": "win",
+  "CryptKey": null,
+  "ExternalTextures": false,
+  "Context": {},
+  "Resources": {
+    "0": "main.psb/tex-texture.png"
+  }
+}
