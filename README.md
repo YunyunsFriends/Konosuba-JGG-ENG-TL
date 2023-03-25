@@ -4,11 +4,11 @@ This patch adds a partial English menu and 8 machine translated scripts on PC an
 ###
 We are looking for translators to translate the rest of the vn's scripts, and will not be able to finish the patch without them because we do not want to machine translate the entire game.
 ###
-If you wish to help please contact cheese#7058 or Shaggy_thecat#3572 on Discord.
+If you wish to help or interact with us please join or Discord server https://discord.gg/X2MWMUzWJ5 or contact Shaggy_thecat#3572.
 ## PC Patch Features
 - Translated Menus and System text.
 - A slightly modified font to fit more text on screen.
-- Enabled Debug Menu. (Mostly broken)
+- Enabled Debug Menu. ~(Mostly broken)~ Fix provided by nikvoid. Thank you!
 - ~Changed the supported video container to .mp4 for Steam Deck / Linux compatibility, and so one video file can be used for PS4, Switch, and PC.~ Temporarily removed from POC patch.
 - Reduced font size.
 ## Switch Patch
