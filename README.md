@@ -4,7 +4,7 @@ This patch adds a partial English menu and 8 machine translated scripts on PC an
 ###
 We are looking for translators to translate the rest of the vn's scripts, and will not be able to finish the patch without them because we do not want to machine translate the entire game.
 ###
-If you wish to help or interact with us please join or Discord server https://discord.gg/X2MWMUzWJ5 or contact Shaggy_thecat#3572.
+If you wish to help or interact with us please join our Discord server https://discord.gg/X2MWMUzWJ5 or contact Shaggy_thecat#3572.
 ## PC Patch Features
 - Translated Menus and System text.
 - A slightly modified font to fit more text on screen.
