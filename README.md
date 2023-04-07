@@ -1,4 +1,4 @@
-![title](https://user-images.githubusercontent.com/110912092/230537187-15e17549-70ac-4be3-abc0-2edab3e9f6d5.png)
+![title](https://user-images.githubusercontent.com/110912092/230586231-1af7171a-7a2c-4aa9-84a0-2d7cc71a68b3.png)
 ## Konosuba Judgment on this Greedy Game Prologue English Patch for PC & Switch Proof of Concept
 This patch adds a English menu and translates all the prologue scripts on PC and Switch.
 ###
