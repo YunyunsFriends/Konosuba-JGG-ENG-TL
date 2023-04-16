@@ -2,7 +2,7 @@
 ## Konosuba Judgment on this Greedy Game Prologue English Patch for PC & Switch Proof of Concept
 This patch adds a English menu and translates all the prologue scripts on PC and Switch.
 ###
-We are looking for translators to help translate the rest of the vn's scripts, and will not be able to finish the patch without them because we do not want to machine translate the entire game.
+We are looking for translators to help translate the rest of the vn's scripts.
 ###
 If you wish to help or interact with us please join our Discord server https://discord.gg/X2MWMUzWJ5 or contact Shaggy_thecat#3572.
 ## PC Patch Features
