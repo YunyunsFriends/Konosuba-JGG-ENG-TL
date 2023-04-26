@@ -55,7 +55,7 @@ Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/p
 ### **[suba-yoku-dbg](https://github.com/ErisOrder/suba-yoku-dbg)**
 - Outputs debug information.
 ### **[konosuba-yokubukai](https://github.com/ErisOrder/konosuba-yokubukai)**
-- A repo to assist translation K:JGG translation projects.
+- A repo to assist K:JGG translation projects.
 ### **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)**
 - Exports and imports strings from .scn files to a speadsheet.
 - Used to port edited strings from PC to Switch and Vita.
