@@ -32,7 +32,7 @@ If we get translators on board to help with this project yes. Those versions of 
 ### Do I need the game?
 Yes, the files in releases are what's strictly needed for the patch. If you try to run the executable in the patch files without overwriting the game files you will get a black screen. 
 ### Can I play this on a Steam Deck?
-Yes, you will need to install **[GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)** using ProtonUp-Qt and add Konosuba: JGG to Steam and launch it. Then install this version of **[DirectX](https://lutris.net/files/tools/directx-2010.tar.gz)** to Konosuba: JGG's prefix using WineTrick's run exe on prefix feature.
+Yes, an install script is available for [Lutris](https://lutris.net/) on the game's [page](https://lutris.net/games/konosuba-gods-blessing-on-this-wonderful-world-jud/) once installed the version of proton will need to be changed to the latest version of lutris-GE-Proton so audio and videos work properly.
 ## Credits & Thanks
 ### Cheese
 - Texture Editing / Redrawing
