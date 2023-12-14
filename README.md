@@ -38,13 +38,16 @@ Yes, an install script is available for [Lutris](https://lutris.net/) on the gam
 - Proofreading
 - Video Editing / Subtitling
 - Initial POC release on [Reddit](https://www.reddit.com/r/Konosuba/comments/10ic5hm/konosuba_vnjudgement_on_this_greedy_game_eng/)
-### H. Berry
-- Translation
-### Goku
-- Menu TL
 ### Shaggy
+- Texture Editing
 - Texture Adjustments / Remapping & Implementation
 - Text Implementation
+### H. Berry
+- Translation (Not featured in the in the Prologue demo.)
+### Kiril K.
+- Translation (Not featured in the in the Prologue demo.)
+### Goku
+- Menu TL
 ### nikvoid / ErisOrder
 - Provided tools ([suba-yoku-dbg](https://github.com/ErisOrder/suba-yoku-dbg) [konosuba-yokubukai](https://github.com/ErisOrder/konosuba-yokubukai))
 - [Fixed](https://github.com/Shaggythecat/Konosuba-JGG-ENG-TL/issues/1) the debug menu.
