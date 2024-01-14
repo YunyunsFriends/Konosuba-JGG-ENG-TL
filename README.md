@@ -64,6 +64,8 @@ Yes, an install script is available for [Lutris](https://lutris.net/) on the gam
 ### **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)**
 - Exports and imports strings from .scn files to a speadsheet.
 - Used to port edited strings from PC to Switch and Vita.
+### [KAW Texture Pinpointer](https://github.com/YunyunsFriends/KaleidoADV-Texture-Coordinates)
+- Aids in texture mapping and remapping.
 ### **[ScnEditorGUI](https://github.com/hiroshiyuri/scn-editor-gui)**
 - Used to directly edit script files.
 ## Disclaimers
